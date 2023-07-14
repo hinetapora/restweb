@@ -1,8 +1,8 @@
 {
-  "name": "wgrest-admin",
+  "name": "ubrest-admin",
   "version": "1.0.0",
   "private": true,
-  "author": "forestvpn.com",
+  "author": "ub",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -26,7 +26,7 @@
     "vuex": "3.6.2",
     "mitt": "^2.1.0",
     "vuex-module-decorators": "1.0.1",
-    "wgrest": "^1.0.3"
+    "ubwgrest": "^1.0.3"
   },
   "devDependencies": {
     "@types/jest": "26.0.22",

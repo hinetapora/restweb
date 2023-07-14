@@ -34,16 +34,16 @@
         >
         <div class="detail__info">
 
-          <span>Private key</span>
+          <span>Private key:</span>
           <el-input v-model="editedPeer.private_key" class="detail__info-input"></el-input>
 
           <span>Public key</span>
           <el-input v-model="editedPeer.public_key" class="detail__info-input" :disabled="editedPeer.private_key.length > 0"></el-input>
-          <span>Persistent keepalive interval</span>
+          <span>Persistent keepalive interval:</span>
           <el-input v-model="editedPeer.persistent_keepalive_interval" class="detail__info-input"></el-input>
-          <span>endpoint:</span>
+          <span>Endpoint:</span>
           <el-input v-model="editedPeer.endpoint" class="detail__info-input"></el-input>
-          <span>Allowed ips</span>
+          <span>Allowed ips:</span>
           <el-input type="textarea" rows="4" v-model="editedPeer.allowed_ips" class="detail__info-input"></el-input>
         </div>
        <div class="detail__info-buttons">
